@@ -79,83 +79,8 @@ def create_test_data():
 def load_test_data():
     imgs_test = np.load('npy/imgs_test_new_data.npy')
     return imgs_test
-# ______________________________________________________
-def load_test_data_1():
-    imgs_test = np.load('npy/20131017_Chip1.npy')
-    return imgs_test
-
-def load_test_data_2():
-    imgs_test = np.load('npy/20131017_Chip2.npy')
-    return imgs_test
-
-def load_test_data_3():
-    imgs_test = np.load('npy/20131017_Chip3.npy')
-    return imgs_test
-
-def load_test_data_4():
-    imgs_test = np.load('npy/20131017_Chip5.npy')
-    return imgs_test
-# ______________________________________________________
-def load_test_data_5():
-    imgs_test = np.load('npy/20131021_Chip1.npy')
-    return imgs_test
-
-def load_test_data_6():
-    imgs_test = np.load('npy/20131021_Chip2.npy')
-    return imgs_test
-
-def load_test_data_7():
-    imgs_test = np.load('npy/20131021_Chip3.npy')
-    return imgs_test
-# ______________________________________________________
-def load_test_data_8():
-    imgs_test = np.load('npy/20131028_Chip1.npy')
-    return imgs_test
-
-def load_test_data_9():
-    imgs_test = np.load('npy/20131028_Chip2.npy')
-    return imgs_test
-
-def load_test_data_10():
-    imgs_test = np.load('npy/20131028_Chip3.npy')
-    return imgs_test
-# ______________________________________________________
-def load_test_data_11():
-    imgs_test = np.load('npy/20131114_Chip1.npy')
-    return imgs_test
-
-def load_test_data_12():
-    imgs_test = np.load('npy/20131114_Chip2.npy')
-    return imgs_test
-
-def load_test_data_13():
-    imgs_test = np.load('npy/20131114_Chip3.npy')
-    return imgs_test
-# ______________________________________________________
-def load_test_data_14():
-    imgs_test = np.load('npy/20131121_Chip4.npy')
-    return imgs_test
-
-def load_test_data_15():
-    imgs_test = np.load('npy/20131121_Chip6.npy')
-    return imgs_test 
  
 
 if __name__ == '__main__':
     create_train_data()
-    load_test_data()
-    # load_test_data_1()
-    # load_test_data_2()
-    # load_test_data_3()
-    # load_test_data_4()
-    # load_test_data_5()
-    # load_test_data_6()
-    # load_test_data_7()
-    # load_test_data_8()
-    # load_test_data_9()
-    # load_test_data_10()
-    # load_test_data_11()
-    # load_test_data_12()
-    # load_test_data_13()
-    # load_test_data_14()
-    # load_test_data_15()
+    create_test_data()
